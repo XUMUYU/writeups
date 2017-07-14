@@ -11,17 +11,20 @@
 * [0x00 SMB Transaction概述](#0x00-smb-transaction概述)
   * [1 消息格式](#1.-消息格式)
   * [2 实现细节](#2.-实现细节)
-* Bug1：Transaction InParameters和InData缓冲区未初始化漏洞
-* Bug2: TRANS_PEEK_NMPIPE子命令始终期望MaxParameterCount为16
-* Bug3: 允许Transaction响应数据长度大于申请的缓冲区长度
-* Bug4: 允许ParameterCount/DataCount之和大于TotalParameterCount/TotalDataCount
-* Bug5: 允许Transaction secondary请求在服务端开始处理transaction后才被接收和处理
+* [Bug1：Transaction InParameters和InData缓冲区未初始化漏洞](#bug1transaction-inparameters和indata缓冲区未初始化漏洞)
+* [Bug2: TRANS_PEEK_NMPIPE子命令始终期望MaxParameterCount为16](#bug2-trans_peek_nmpipe子命令始终期望maxparametercount为16)
+* [Bug3: 允许Transaction响应数据长度大于申请的缓冲区长度](#bug3-允许transaction响应数据长度大于申请的缓冲区长度)
+* [Bug4: 允许ParameterCount/DataCount之和大于TotalParameterCount/TotalDataCount](#bug4-允许parametercountdatacount之和大于totalparametercounttotaldatacount)
+* [Bug5: 允许Transaction secondary请求在服务端开始处理transaction后才被接收和处理](#bug5-允许transaction-secondary请求在服务端开始处理transaction后才被接收和处理)
   * [1 利用该漏洞的第一种场景](#1.-利用该漏洞的第一种场景)
   * [2 利用该漏洞的第二种场景](#2.-利用该漏洞的第二种场景)
-* Bug6: 允许Transaction secondary请求设置为任意transaction类型
-* Bug7: SrvOs2FeaListSizeToNt中的类型分配错误
-* Bug8: SrvOs2GeaListSizeToNt中的类型分配错误
-* Bug9: SESSION_SETUP_AND_X请求格式混淆漏洞
+* [Bug6: 允许Transaction secondary请求设置为任意transaction类型](#bug6-允许transaction-secondary请求设置为任意transaction类型)
+* [Bug7: SrvOs2FeaListSizeToNt中的类型分配错误](#bug7-srvos2fealistsizetont中的类型分配错误)
+* [Bug8: SrvOs2GeaListSizeToNt中的类型分配错误](#bug8-srvos2gealistsizetont中的类型分配错误)
+* [Bug9: SESSION_SETUP_AND_X请求格式混淆漏洞](#bug9-session_setup_and_x请求格式混淆漏洞)
+* [补充：永恒之蓝到底是如何实现利用的](#补充-永恒之蓝到底是如何实现利用的)
+  * [1. Srvnet缓冲区简述](#1.-Srvnet缓冲区简述)
+  * [2. 永恒之蓝利用细节](#2.-永恒之蓝利用细节)
 * [参考资料](#参考资料)
 
 ## 0x00 smb transaction概述
