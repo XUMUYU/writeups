@@ -1,8 +1,16 @@
-# :moyai: Walkerfuz's writeups
+# :trollface: Walkerfuz's writeups
+
+[![](https://img.shields.io/github/forks/walkerfuz/writeups.svg)](https://github.com/walkerfuz/writeups/network) [![](https://img.shields.io/github/stars/walkerfuz/writeups.svg)](https://github.com/walkerfuz/writeups/stargazers)
 
 > Study notes can persist for three years, you will be able to become a teacher. :watermelon:
 
------
+* [文章列表](#文章列表)
+* [漏洞公布](#漏洞公布)
+* [书单](#书单)
+* [研究项目](#研究项目)
+* [联系我](#联系我)
+
+------
 
 ## 文章列表
 
@@ -18,6 +26,12 @@
   * [从零开始学Fuzzing系列之三：带领nduja突破Grinder的壁垒](http://www.freebuf.com/web/105510.html)
   * [从零开始学Fuzzing系列之二：浏览器fuzz工具探究之框架篇](http://www.freebuf.com/sectool/93130.html)
   * [从零开始学Fuzzing系列之一：浏览器挖掘框架Morph诞生记](http://www.freebuf.com/sectool/89001.html)
+* 逆向工程
+  * [Windows SMB协议逆向之旅第一篇：ms17-010`永恒之蓝`漏洞详细分析与利用](./notes/exploit_ms17_010_windows_smb_eternal_blue_analysis_and_exploit.md):bookmark:
+
+## 漏洞公布
+
+* [CVE-2015-5751 Apple QuickTime Player avi file Remote Code Execution]()
 
 ## 书单
 
@@ -79,8 +93,8 @@
 
 * [morph - an open source browser fuzzing framework for fun](https://github.com/walkerfuz/morph)
 * [pydbg3 - an pure python3 debugger to debug process on windows/linux/macOS](https://github.com/walkerfuz/pydbg3)
-* [droplet - an networked aircraft can reach any corner of cyber based on exploits](https://github.com/walkerfuz/droplet)
-* [naja - an bug scanner for services on internet which is easy to use and add modules](https://github.com/walkerfuz/naja)
+* :droplet:[droplet - an networked aircraft can reach any corner of cyber based on exploits](https://github.com/walkerfuz/droplet)
+* :snake:[naja - an bug scanner for services on internet which is easy to use and add modules](https://github.com/walkerfuz/naja)
 
 ## 联系我
 
