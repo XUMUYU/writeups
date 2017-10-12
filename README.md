@@ -17,6 +17,8 @@
 如果您想浏览所有目录，请访问[这里](./notes).
 
 * 漏洞分析
+  * Windows SMB协议逆向系列
+  * [ms17-010`永恒之蓝`漏洞详细分析与利用](./notes/exploit_ms17_010_windows_smb_eternal_blue_analysis_and_exploit.md):bookmark:
   * [【翻译】利用MS17-010补丁对比发现的九个漏洞](./notes/translate_nine_bugs_i_found_from_ms_17_010_diff.md)
   * [暴风影音AviIndexChunk字段堆溢出漏洞分析实战](http://www.freebuf.com/vuls/126892.html)
   * [深入解读MS14-068漏洞：微软精心策划的后门？](http://www.freebuf.com/vuls/56081.html)
@@ -26,8 +28,6 @@
   * [从零开始学Fuzzing系列之三：带领nduja突破Grinder的壁垒](http://www.freebuf.com/web/105510.html)
   * [从零开始学Fuzzing系列之二：浏览器fuzz工具探究之框架篇](http://www.freebuf.com/sectool/93130.html)
   * [从零开始学Fuzzing系列之一：浏览器挖掘框架Morph诞生记](http://www.freebuf.com/sectool/89001.html)
-* 逆向工程
-  * [Windows SMB协议逆向之旅第一篇：ms17-010`永恒之蓝`漏洞详细分析与利用](./notes/exploit_ms17_010_windows_smb_eternal_blue_analysis_and_exploit.md):bookmark:
 
 ## 漏洞公布
 
