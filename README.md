@@ -12,7 +12,7 @@
 
 ## 文章列表
 
-如果您想浏览所有目录，请访问[这里](./notes).
+如果您想浏览所有目录，请访问[这里](./notes)。
 
 * 漏洞分析
   * [【翻译】利用MS17-010补丁对比发现的九个漏洞](./notes/translate_nine_bugs_i_found_from_ms_17_010_diff.md)
