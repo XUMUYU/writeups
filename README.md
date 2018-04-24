@@ -14,14 +14,17 @@
 
 如果您想浏览所有目录，请访问[这里](./notes)。
 
-* 漏洞分析
-  * [【翻译】利用MS17-010补丁对比发现的九个漏洞](./notes/translate_nine_bugs_i_found_from_ms_17_010_diff.md)
-  * [暴风影音AviIndexChunk字段堆溢出漏洞分析实战](http://www.freebuf.com/vuls/126892.html)
-  * [深入解读MS14-068漏洞：微软精心策划的后门？](http://www.freebuf.com/vuls/56081.html)
-* 渗透测试
-  * [刨根问底：Hash传递攻击原理探究](http://www.freebuf.com/terminal/80186.html)
-* 漏洞挖掘
-  * 从零开始学Fuzzing系列之浏览器篇 [①](http://www.freebuf.com/web/105510.html) [②](http://www.freebuf.com/sectool/93130.html) [③](http://www.freebuf.com/sectool/89001.html)
+* [2017-07-10【翻译】利用MS17-010补丁对比发现的九个漏洞](./notes/translate_nine_bugs_i_found_from_ms_17_010_diff.md)
+
+* [2017-02-17【漏洞分析】暴风影音AviIndexChunk字段堆溢出漏洞分析实战](http://www.freebuf.com/vuls/126892.html)
+
+* 2016-05-28 【Fuzzing】从零开始学Fuzzing系列之浏览器篇[①](http://www.freebuf.com/web/105510.html) [②](http://www.freebuf.com/sectool/93130.html) [③](http://www.freebuf.com/sectool/89001.html)
+
+* [2015-10-01【渗透测试】刨根问底：Hash传递攻击原理探究](http://www.freebuf.com/terminal/80186.html)
+
+* [2015-01-11【漏洞分析】深入解读MS14-068漏洞：微软精心策划的后门？](http://www.freebuf.com/vuls/56081.html)
+
+转载请注明出处。:ear_of_rice:
 
 ## 漏洞公布
 
@@ -35,6 +38,12 @@
 
 读书计划：每个月一本好书。
 
+## Pocket
+
+这是在getpocket积累的学习资料和优秀站点，希望对你能有所帮助：
+
+[学习资料和站点列表]()
+
 ## 研究项目
 
 * [morph - an open source fuzzing framework for fun](https://github.com/walkerfuz/morph)
@@ -43,7 +52,9 @@
 
 ## 关于我
 
-我是一个小小的走神™。
+我是一个小小的走神™，像风一样分析漏洞、挖漏洞的白帽子。
+
+兴趣：二进制漏洞、浏览器安全、IOT研究、协议分析、Fuzzing Framework、C、Python和Poweshell。
 
 邮箱：walkerfuz#outlook.com
 

@@ -44,7 +44,7 @@
   * Android安全攻防实战
   * Android安全架构深究
 * 设备安全
-  * [揭秘家用路由器0day漏洞挖掘技术]():bookmark:
+  * [揭秘家用路由器0day漏洞挖掘技术]():100:
 * 渗透测试
   * Metasploit渗透测试魔鬼训练营
 * 网络协议
@@ -56,7 +56,7 @@
   * 汇编语言（第3版）
   * 汇编语言：基于x86处理器（原书第7版）
   * Python灰帽子：黑客和逆向工程师的Python编程之道
-  * Windows PowerShell实战指南
+  * Windows PowerShell实战指南:bookmark:
 * 调试工具
   * [IDA Pro权威指南（第2版）]():bookmark:
 
