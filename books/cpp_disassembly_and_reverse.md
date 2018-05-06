@@ -136,7 +136,7 @@ xor edx, edx
 
 除数为2的幂：
 
-![](../../images/div_math.png)
+![](https://github.com/walkerfuz/writeups/blob/master/images/div_math.png)
 
 将向零取整的除法操作转化为向下取整的sar指令。
 
@@ -182,7 +182,7 @@ idiv eax, ecx
 ```
 Release版优化：
 
-![](./../div_math_not_2.png)
+![](https://github.com/walkerfuz/writeups/blob/master/images/div_math_not_2.png)
 
 最终得到优化后的除法： x * c >> n
 
@@ -210,7 +210,7 @@ push edx
 
 编译器在计算MagicNumber时是作为无符号处理的，而imul指令是作为有符号处理的。所以当魔数≥0x80000000时，实际参与乘法运算的是个负数，导致魔数与数学公式上的那个“大常数”意义不一致。 因此情形1的优化不适用于这种情况，重新推导公式：
 
-![](../../div_math_not_2_big.png)
+![](https://github.com/walkerfuz/writeups/blob/master/images/div_math_not_2_big.png)
 
 
 
@@ -227,7 +227,7 @@ push edx
 
 上述计算过程：
 
-![](../../div_math_not_2_big_2.png)
+![](https://github.com/walkerfuz/writeups/blob/master/images/div_math_not_2_big_2.png)
 
 计算2^34 / 92492493h = 6.999999
 
@@ -237,7 +237,7 @@ push edx
 
 第三种情形MagicNumber超出了2^32：
 
-![](../../div_math_not_2_too_big.png)
+![](https://github.com/walkerfuz/writeups/blob/master/images/div_math_not_2_too_big.png)
 
 推导：
 ```
@@ -253,7 +253,7 @@ push ecx
 
 上述过程：
 
-![](../../div_math_not_2_too_big_2.png)
+![](https://github.com/walkerfuz/writeups/blob/master/images/div_math_not_2_too_big_2.png)
 
 根据魔术公式，计算即可。
 
